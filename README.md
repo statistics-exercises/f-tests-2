@@ -10,7 +10,7 @@ Obviously, we cannot extract the exact values for the variances by sampling. We 
 
 With the sample variances, ![](https://render.githubusercontent.com/render/math?math=S_1^2) and ![](https://render.githubusercontent.com/render/math?math=S_2^2), calculated for the two sets of data using the formula above, we can then introduce the following test statistic:
 
-![](https://render.githubusercontent.com/render/math?math=F=\frac{\left(\frac{S_1^2}{\sigma_1^2}\right)}{\left(\frac{S_2^2}{\sigma_2^2}\right)} = \frac{1}{\lambda_0}\frac{S_1^2}{S_2^2})
+![](https://render.githubusercontent.com/render/math?math=F=\frac{\left(\frac{S_1^2}{\sigma_1^2}\right)}{\left(\frac{S_2^2}{\sigma_2^2}\right)}=\frac{1}{\lambda_0}\frac{S_1^2}{S_2^2})
 
 In the next couple of tasks, you are going to write code to sample from this random variable.  We are then going to characterise the distribution for this random variable.  The remainder of the tasks will then show you how we can use this distribution to perform hypothesis tests.
 
