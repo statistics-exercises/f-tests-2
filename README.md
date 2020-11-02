@@ -8,7 +8,7 @@ Obviously, we cannot extract the exact values for the variances by sampling. We 
 
 ![](https://render.githubusercontent.com/render/math?math=s^2=\frac{n}{n-1}\left[\frac{1}{n}\sum_{i=1}^nX_i^2-\left(\frac{1}{n}\sum_{i=1}^nX_i\right)^2\right])
 
-With the sample variances, ![](https://render.githubusercontent.com/render/math?math=S_1^2) and ![](https://render.githubusercontent.com/render/math?math=S_2^2_, calculated for the two sets of data using the formula above, we can then introduce the following test statistic:
+With the sample variances, ![](https://render.githubusercontent.com/render/math?math=S_1^2) and ![](https://render.githubusercontent.com/render/math?math=S_2^2), calculated for the two sets of data using the formula above, we can then introduce the following test statistic:
 
 ![](https://render.githubusercontent.com/render/math?math=F=\frac{\left(\frac{S_1^2}{\sigma_1^2}\right)}{\left(\frac{S_2^2}{\sigma_2^2}\right)} = \frac{1}{\lambda_0}\frac{S_1^2}{S_2^2})
 
